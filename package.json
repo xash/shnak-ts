@@ -1,0 +1,29 @@
+{
+  "name": "shnak-ts",
+  "version": "0.0.3",
+  "description": "A simple implementation of the shnak protocol",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist/*.js",
+    "dist/*d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xash/shnak-ts.git"
+  },
+  "keywords": [
+    "shnak"
+  ],
+  "author": "xash <xn--wxa.land>",
+  "license": "AGPL3",
+  "dependencies": {
+    "@noble/curves": "^1.2.0",
+    "debif-ts": "0.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
