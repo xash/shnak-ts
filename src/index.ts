@@ -1,2 +1,3 @@
 export * from './crypto'
-export * from './shnak'
+export * from './shnaker'
+export * from './group'
